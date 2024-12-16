@@ -1,0 +1,187 @@
+:root {
+
+    --Color1: #71b989;
+    --BackGrey: #838383;
+    --DarkerGray:#424242;
+
+}
+
+    
+
+body{
+
+background-color: var(--BackGrey);
+
+}
+#hero {
+    background-image: url(Images/Hero\ Image.avif);
+    padding-left: 0;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 70vh;
+    
+    border-radius: 5vw;
+
+}
+
+.title2{
+    text-align: center;
+    font-size: 72pt;
+    font-family: monospace;
+    color: var(--Color1);
+    margin-top: -9%;
+}
+.title {
+
+    text-align: center;
+    font-size: 70pt;
+    font-family:monospace ;
+    color: var(--DarkerGray);
+    margin-top: auto;
+
+}
+.hometitle {
+
+    text-align: center;
+    font-size: 72pt;
+    font-family: monospace;
+    color: var(--Color1);
+    margin-top: -13%;
+
+}
+.navbar {
+
+    margin: 0;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 3vw;
+    padding: 1vw;
+   
+    
+
+}
+.home {
+
+    font-size: 10vh;
+    color: black;
+    border-style:groove;
+    text-decoration: none;
+    background-color: var(--Color1);
+
+}
+nav>ul>a>li {
+    text-align: center;
+    
+    
+    
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    text-decoration: none;
+    
+
+
+    
+}
+.grimage{
+
+    width: 60%; 
+    height: 20vw;
+    border-radius: 1vw;
+
+
+}
+.gritem {
+
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border-style: groove;
+    border-radius: 20px;
+    background-color: var(--Color1);
+    
+
+}
+.grid>a{
+
+    text-decoration: none;
+}
+.ad {
+
+    grid-column: 4;
+    grid-row: 1/ span 2;
+    width: 100%;
+    border-radius: 1vw;
+
+}
+
+nav>ul {
+display: flex;
+list-style-type: none;
+display: flex;
+justify-content: center;
+list-style: none;
+align-items: center;
+
+}
+a {
+
+    text-decoration: none;
+
+}
+.bigp {
+
+text-align: center;
+font-size: 30pt;
+width: 150%;
+
+}
+.footerflex {
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+.footerflex>div {
+
+        margin: auto;
+}
+.copyright {
+
+    font-size: 10pt;
+    text-align: center;
+}
+.ad2 {
+
+    width: 70%;
+    border-radius: 3vw;
+
+
+}
+main{
+    display: flex;
+}
+
+@media screen and (max-width:412) {
+
+   
+    .grid {
+
+        grid-template-columns: repeat(1);
+        grid-template-rows: repeat(6);
+
+    }
+    img {
+
+        width: 70%;
+
+    } 
+}
